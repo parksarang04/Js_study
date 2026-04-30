@@ -4,7 +4,7 @@ let b = 2;  // let = 재선언x, 재할당o (var 대신 많이 씀)
 const c = 3; // 재선언x, 재할당x
 
 // 원시타입 = 단 하나의 값만 가지는 타입/ number, string, bool, null, undefined
-// 비원시타입 = 하나의 값이 아닌 여러가지 값을 가짐 / 객체를 비원시타입이라 한다.
+// 비원시타입 = 하나의 값이 아닌 여러가지 값을 가짐 / 객체(object type)를 비원시타입이라 한다.
 
 let num = 1;
 let str = '가';
@@ -67,3 +67,4 @@ console.log(Q2??Q1)
 let res = 10 % 3 === 0 ? "Wkr" : "ghf";
 
 console.log(res);
+
